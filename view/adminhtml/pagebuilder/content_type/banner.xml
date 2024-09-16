@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_PageBuilder:etc/content_type.xsd">
+    <type name="banner">
+        <appearances>
+            <appearance name="poster">
+                <elements>
+                    <element name="wrapper">
+                        <style name="example1" source="example1"/>
+                        <attribute name="example2" source="data-example2"/>
+                    </element>
+                </elements>
+            </appearance>
+        </appearances>
+    </type>
+</config>

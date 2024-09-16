@@ -1,0 +1,21 @@
+{
+  "name": "yireo-training/module-example-page-builder-widget",
+  "version": "1.0.0",
+  "description": "N/A",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*",
+    "magento/module-page-builder": "2.2.*"
+  },
+  "license": [
+    "Open Software License (OSL)"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "YireoTraining\\ExamplePageBuilderWidget\\": ""
+    }
+  }
+}
